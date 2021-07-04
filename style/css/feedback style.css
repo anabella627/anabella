@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+body {
+  background-image: url(../image/atm\ man.jfif);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+
+.feedback {
+  background-color: teal;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 30px;
+  margin: auto;
+
+  /* box-shadow: 2px 2px 5px 2px gray; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.question {
+  align-self: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

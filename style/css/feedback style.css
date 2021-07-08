@@ -2,7 +2,7 @@
 
 
 body {
-  background-image: url(../image/atm\ man.jfif);
+  background-color: lightskyblue;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   height: 100vh;
@@ -11,21 +11,19 @@ body {
 
 
 .feedback {
-  background-color: teal;
-  color: #fff;
+  /* background-image: url(../image/man\ with\ shame.jfif); background-repeat: no-repeat; background-size: cover;
+  color: #fff; */
+  background-color: steelblue;
   display: flex;
   flex-direction: column;
   width: 40%;
   padding: 30px;
-  margin: auto;
-
-  /* box-shadow: 2px 2px 5px 2px gray; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  margin: auto; 
 }
 
 .question {
   align-self: center;
+  text-decoration: tomato;
 }
 
 .options {

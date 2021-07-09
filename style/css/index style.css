@@ -405,11 +405,20 @@ color: black;
   letter-spacing: 1.2px;
 }
 .img-src{
-  width: 30%;
+  /* width: 30%;
+  margin: 10px;
+  padding: 10px; */
+   width: 80%; 
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #fff;
   margin: 10px;
   padding: 10px;
+  box-shadow: 2px 2px 5px 2px gray;
 }
  .footer{
+   text-decoration: none;
   background-color:white;
   font-family: arial;
   padding-left: 5%;
@@ -422,9 +431,17 @@ color: black;
   opacity: .8; 
    left: 0; 
   width: 100%;
-  height: 25%; 
-    display:flow-root; 
-  /* justify-content: space-around; */
+  height: 10%; 
+    display:flex; 
+ justify-content: space-around; 
   box-shadow: 2px 2px 5px 2px gray;  
   justify-content: space-between;
 } 
+.footer-item a{
+  text-decoration: none;
+  color:steelblue;
+}
+.footer-item p{
+  text-decoration: none;
+  color: #000;
+}

@@ -1,39 +1,58 @@
+
+
+
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <link rel="stylesheet" href="style/css/style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+  <title>Register</title>
+  <link rel="stylesheet" href="style/css/style.css">
 </head>
 <body>
-  
-    <div class="form-container">
-        <h1>Login</h1>
-        <form>
-          <div class="form-control">
-              <label for="EMAIL">EMAIL:</label>
-              <input type="email" id="EMAIL" name="EMAIL"><br>
-              <br>
+  <div class="regform"><h1>Registration form</h1></div>
+  <div class="main">
+    <form>
+      <div id="name">
+        <h2 class="name">Name</h2>
+        <input class="firstname" type="text" name="First-name"><br>
+      <label class="firstlabel">First-name</label>
+     <input class="lastname" type="text" name="Last-name"><br>
+     <label class="lastlabel">Last-name</label>
+      </div>
+      <h2 class="name">web name</h2>
+      <input class="Web-name" type="text" name="web-name">
 
-              <label for="=PASSWORD">PASSWORD:</label>
-              <input type="password" id="PASSWORD" name="PASSWORD"><br>
-            
-            </div>
-              <button class="btn">Login</button>
-
-              <div class="text2">
-
-              <p class="text">Don't have an account?   <a href="signup.html">Register</a> </p>
-              <br>
-              </form>
-              </div>
-             
-
-                </form>
+      <h2 class="name" >Email</h2>
+      <input class="email" type="email" type="text" name="email">
     
-      </div>  
+      <h2 class="tel" >Phone</h2>
+      <input class="code" type="text" name="area_code">
+      <label class="area-code">Area code</label>
+      <input class="number" type="text"  name="area_code">
+       <label class="phone-number">phone-number</label>
+
+       <h2 class="name">information</h2>
+       <select class="option" name="information">
+         <option disabled ="disabled" selected ="selected">--choose option</option>
+         <option>meaning of phising</option>
+         <option>causes of phising</option>
+         <option>effects of phising</option>
+         <option>how to prevent phising</option>
+
+       </select>
+
+       <h2 id="student">Are you a novice on ict ?</h2>
     
+       <label class="radio">
+       <input class="radio=two" type="radio" checked="checked" name="">
+         <span class="chechmark"></span>
+         yes
+         </label>
+         <label class="radio">
+          <input class="radio=two" type="radio" name="">
+            <span class="chechmark"></span>
+            No
+            </label>
+
+            <button type="submit">Register</button>
+    </form>
+  </div>
 </body>
-</html>

@@ -1,0 +1,21 @@
+body{
+  background-color: white;
+}
+.container h4{
+  padding-top: 39px;
+  color: blue;
+}
+.container a{
+  color: steelblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+.content-item p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+  padding-left: 20px;
+}
+.container h4 navy{
+  background-color: rgb(255, 0, 55);
+}

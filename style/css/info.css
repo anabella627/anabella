@@ -25,6 +25,7 @@ header{
  background-position: bottom;
 cursor: pointer;
 
+
 }
 .nav__links{
   list-style: none;
@@ -37,6 +38,7 @@ padding: 0px 20px;
 .nav__links li a{
   transition: all 0.3s ease 0s;
   color: white;
+
 }
 .nav__links li a:hover{
   color: #0041bbea;

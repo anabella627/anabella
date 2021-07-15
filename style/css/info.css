@@ -12,23 +12,24 @@ li, a, button{
   text-decoration: none;
 }
 header{
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
 }
 .logo{
-  background-image: url(../image/fine-sand.jfif);
+  background-image: url(../image/BUBBLE.png);
  background-repeat: no-repeat;
  background-size: cover;
  background-position: bottom;
-cursor: pointer;
-
+ cursor: pointer;
+ 
 
 }
 .nav__links{
   list-style: none;
+  line-height: 30px;
+  color: steelblue;
 }
 .nav__links li{
 display: inline-block;
@@ -68,6 +69,10 @@ button:hover{
 .content h3{
   color: steelblue;
 }
+  .content h3 ul li{
+  background: tomato;
+  }
+
 .home{
   padding-bottom: 20%;
   padding-left: 3%;
